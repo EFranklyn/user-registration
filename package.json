@@ -1,0 +1,25 @@
+{
+  "name": "user-registration",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist-electron/main/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "electron .",
+    "electron:dev": "electron ."
+  },
+  "dependencies": {
+    "vite-plugin-electron": "^0.28.3",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "@types/vue": "^2.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "^29.1.4",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6"
+  }
+}
