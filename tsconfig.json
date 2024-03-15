@@ -24,10 +24,13 @@
         ".eslintrc.cjs",
         "electron/**/*.ts",
         "electron/**/*.d.ts", 
-        "src/main.js",
+        "src/main.ts",
         "vitest.setup.ts", 
         "vite.config__.js",
-        "vite.config.electron.ts"
+        "vite.config.electron.ts",
+        "./.dot/**/*.vue",
+        "./dot/**/*.vue",
+        "src/routes/*.ts"
       ],
     "exclude": [
     "node_modules"
